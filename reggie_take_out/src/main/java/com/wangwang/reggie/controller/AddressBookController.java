@@ -9,7 +9,6 @@ import com.wangwang.reggie.entity.AddressBook;
 import com.wangwang.reggie.service.AddressBookService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -24,7 +23,7 @@ public class AddressBookController {
 
     @Autowired
     private AddressBookService addressBookService;
-
+    
     /**
      * 新增
      */
