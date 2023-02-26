@@ -42,6 +42,7 @@ com\wangwang\reggie\controller\OrderController.class
 com\wangwang\reggie\common\MyMetaObjectHandler.class
 com\wangwang\reggie\service\SetmealDishService.class
 com\wangwang\reggie\entity\User.class
+com\wangwang\reggie\config\RedisConfig.class
 com\wangwang\reggie\service\impl\CategoryServiceImpl.class
 com\wangwang\reggie\entity\Category.class
 com\wangwang\reggie\service\impl\ShoppingCartServiceImpl.class
